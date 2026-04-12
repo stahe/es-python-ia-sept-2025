@@ -100,8 +100,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // --- Copy-to-clipboard for code blocks (ODT converter) ---
 (function() {
-  var COPY_LABEL = "Copiar";
-  var COPIED_LABEL = "Copiado";
+  var COPY_LABEL = "Copier";
+  var COPIED_LABEL = "Copié";
   var ONLY_RECOGNIZED = true;
   var MIN_LINES = 4;
   var PYGMENTS_HEURISTIC = true;
