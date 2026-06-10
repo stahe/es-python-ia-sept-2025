@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="stylesheets/focus.css">
     
+      <link rel="stylesheet" href="stylesheets/bidi.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -357,14 +359,14 @@
   
   
     <li class="md-nav__item">
-      <a href="configuracion-de-un-entorno-de-desarrollo.html" class="md-nav__link">
+      <a href="instalacion-de-un-entorno-de-trabajo.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    3. Configuración de un entorno de desarrollo
+    3. Instalación de un entorno de trabajo
   
 
     
@@ -563,10 +565,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#82-problema-1" class="md-nav__link">
+  <a href="#82-el-problema-1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        8.2. Problema 1
+        8.2. El problema 1
       
     </span>
   </a>
@@ -574,10 +576,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#83-problema-2" class="md-nav__link">
+  <a href="#83-el-problema-2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        8.3. Problema 2
+        8.3. El problema 2
       
     </span>
   </a>
@@ -692,31 +694,32 @@
 
 <h1 id="8-resolucion-de-los-tres-problemas-con-mistralai">8. <span style="color: #0f4761">Resolución de los tres problemas con MistralAI</span></h1>
 <h2 id="81-introduccion">8.1. <span style="color: #0f4761">Introducción</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002AF00000469CC2137E9.png" width="206" height="338" style="display:inline-block; margin:4px;width:5.45cm;height:8.955cm;" class="odt-zoomable" data-zoom-src="images/10000000000002AF00000469CC2137E9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000636000001743054528A.png" width="359" height="84" style="display:inline-block; margin:4px;width:9.49cm;height:2.221cm;" class="odt-zoomable" data-zoom-src="images/1000000000000636000001743054528A.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002AF00000469CC2137E9.png" width="206" height="339" style="display:inline-block; margin:4px;width:5.45cm;height:8.961cm;" class="odt-zoomable" data-zoom-src="images/10000000000002AF00000469CC2137E9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000636000001743054528A.png" width="359" height="84" style="display:inline-block; margin:4px;width:9.49cm;height:2.221cm;" class="odt-zoomable" data-zoom-src="images/1000000000000636000001743054528A.png" /></td></tr></table>
 
 <ul>
-  <li>En [1], la URL de MistralAI [https://chat.mistral.ai/chat], creada por la empresa Mistral AI [https://mistral.ai/];
+  <li>En [1], el URL delIA MistralAI [https://chat.mistral.ai/chat], producto de la empresa Mistral AI [https://mistral.ai/];
   </li>
-  <li>En [2], el historial de tus preguntas. Las sesiones gratuitas de MistralAI son muy limitadas en cuanto al número de preguntas, el número de archivos adjuntos y el tiempo dedicado. Tuve que adquirir una suscripción de pago de un mes para realizar las siguientes pruebas;
+  <li>En [2], el historial de sus preguntas. Las sesiones gratuitas de MistralAI tienen un límite muy estricto en cuanto al número de preguntas, el número de archivos adjuntos y el tiempo de uso. Tuve que contratar una suscripción de pago de un mes para realizar las pruebas siguientes;
   </li>
   <li>En [3], su pregunta;
   </li>
-  <li>En [4], para adjuntar archivos a tu pregunta;
+  <li>En [4], para adjuntar archivos a su pregunta;
   </li>
-  <li>En [5], para enviar su pregunta;
+  <li>En [5], para ejecutar su pregunta;
   </li>
 </ul>
-<h2 id="82-problema-1">8.2. <span style="color: #0f4761">Problema 1</span></h2>
+
+<h2 id="82-el-problema-1">8.2. <span style="color: #0f4761">El problema 1</span></h2>
 <p>La pregunta:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000005890000009454B3D019.png" width="427" height="45" style="display:inline-block; margin:4px;width:11.291cm;height:1.178cm;" class="odt-zoomable" data-zoom-src="images/10000000000005890000009454B3D019.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005890000009454B3D019.png" width="427" height="45" style="display:inline-block; margin:4px;width:11.291cm;height:1.18cm;" class="odt-zoomable" data-zoom-src="images/10000000000005890000009454B3D019.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>MistralAI responde correctamente a la pregunta.</p>
-<h2 id="83-problema-2">8.3. <span style="color: #0f4761">Problema 2</span></h2>
+<h2 id="83-el-problema-2">8.3. <span style="color: #0f4761">El problema 2</span></h2>
 <p>La pregunta:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000616000001A57F649249.png" width="466" height="126" style="display:inline-block; margin:4px;width:12.33cm;height:3.332cm;" class="odt-zoomable" data-zoom-src="images/1000000000000616000001A57F649249.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000616000001A57F649249.png" width="466" height="126" style="display:inline-block; margin:4px;width:12.33cm;height:3.33cm;" class="odt-zoomable" data-zoom-src="images/1000000000000616000001A57F649249.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Se le pide a MistralAI que resuelva el problema de cálculo de impuestos de 2019 utilizando las reglas de cálculo generadas por ChatGPT en el PDF. El archivo de texto contiene mis instrucciones junto con las 25 pruebas que se deben realizar.</p>
-<p>De hecho, no voy a llegar a ninguna parte con MistralAI. El principal problema es que no lee (o no quiere leer) las instrucciones del archivo de texto [instructionsAvecPDF4.txt]. Genera código que no cumple mis requisitos y tampoco genera las 25 pruebas unitarias solicitadas.</p>
+<p>Se propone a MistralAI resolver el problema del cálculo del impuesto de 2019 con las reglas de cálculo generadas por ChatGPT en el PDF. El archivo de texto contiene mis instrucciones con las 25 pruebas que hay que realizar.</p>
+<p>De hecho, no consigo nada con MistralAI. El problema principal es que no lee (o no quiere leer) las instrucciones del archivo de texto [instructionsAvecPDF4.txt]. Genera un código que no cumple mis requisitos y tampoco genera las 25 pruebas unitarias solicitadas.</p>
 
 
 

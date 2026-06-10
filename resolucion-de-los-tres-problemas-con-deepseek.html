@@ -57,6 +57,8 @@
     
       <link rel="stylesheet" href="stylesheets/focus.css">
     
+      <link rel="stylesheet" href="stylesheets/bidi.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -357,14 +359,14 @@
   
   
     <li class="md-nav__item">
-      <a href="configuracion-de-un-entorno-de-desarrollo.html" class="md-nav__link">
+      <a href="instalacion-de-un-entorno-de-trabajo.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    3. Configuración de un entorno de desarrollo
+    3. Instalación de un entorno de trabajo
   
 
     
@@ -590,10 +592,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#92-problema-1" class="md-nav__link">
+  <a href="#92-el-problema-1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.2. Problema 1
+        9.2. El problema 1
       
     </span>
   </a>
@@ -601,10 +603,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#93-problema-2" class="md-nav__link">
+  <a href="#93-el-problema-2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.3. Problema 2
+        9.3. El problema 2
       
     </span>
   </a>
@@ -612,10 +614,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#94-problema-3" class="md-nav__link">
+  <a href="#94-el-problema-3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9.4. Problema 3
+        9.4. El problema 3
       
     </span>
   </a>
@@ -703,51 +705,52 @@
 
 <h1 id="9-resolucion-de-los-tres-problemas-con-deepseek">9. <span style="color: #0f4761">Resolución de los tres problemas con DeepSeek</span></h1>
 <h2 id="91-introduccion">9.1. <span style="color: #0f4761">Introducción</span></h2>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000002EE00000261F18C2908.png" width="188" height="153" style="display:inline-block; margin:4px;width:4.971cm;height:4.036cm;" class="odt-zoomable" data-zoom-src="images/10000000000002EE00000261F18C2908.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000063B000001D1C6B9449C.png" width="398" height="116" style="display:inline-block; margin:4px;width:10.53cm;height:3.069cm;" class="odt-zoomable" data-zoom-src="images/100000000000063B000001D1C6B9449C.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002EE00000261F18C2908.png" width="188" height="152" style="display:inline-block; margin:4px;width:4.971cm;height:4.03cm;" class="odt-zoomable" data-zoom-src="images/10000000000002EE00000261F18C2908.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000063B000001D1C6B9449C.png" width="398" height="116" style="display:inline-block; margin:4px;width:10.53cm;height:3.069cm;" class="odt-zoomable" data-zoom-src="images/100000000000063B000001D1C6B9449C.png" /></td></tr></table>
 
 <ul>
-  <li>En [1], la URL de DeepSeek [https://chat.deepseek.com/];
+  <li>En [1], el URL de DeepSeek [https://chat.deepseek.com/];
   </li>
-  <li>En [2], tu historial. Para acceder a él, debes crear una cuenta (gratuita a partir de septiembre de 2025);
+  <li>En [2], su historial. Para obtenerlo, debe crear una cuenta (gratuita en septiembre de 2025);
   </li>
-  <li>En [3], tu pregunta;
+  <li>En [3], su pregunta;
   </li>
-  <li>En [4], adjunta archivos a tu consulta;
+  <li>En [4], para adjuntar archivos a su pregunta;
   </li>
-  <li>En [5], para enviar tu pregunta;
+  <li>En [5], para enviar su pregunta;
   </li>
 </ul>
-<h2 id="92-problema-1">9.2. <span style="color: #0f4761">Problema 1</span></h2>
-<p>La pregunta:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000053400000074817BDABD.png" width="399" height="35" style="display:inline-block; margin:4px;width:10.569cm;height:0.921cm;" class="odt-zoomable" data-zoom-src="images/100000000000053400000074817BDABD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
 
-<p>La respuesta de DeepSeek deja mucho que desear. Es menos precisa que las generadas por otras IA.</p>
-<h2 id="93-problema-2">9.3. <span style="color: #0f4761">Problema 2</span></h2>
+<h2 id="92-el-problema-1">9.2. <span style="color: #0f4761">El problema 1</span></h2>
 <p>La pregunta:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000655000001CFD409CA1D.png" width="485" height="138" style="display:inline-block; margin:4px;width:12.82cm;height:3.662cm;" class="odt-zoomable" data-zoom-src="images/1000000000000655000001CFD409CA1D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000053400000074817BDABD.png" width="399" height="35" style="display:inline-block; margin:4px;width:10.569cm;height:0.921cm;" class="odt-zoomable" data-zoom-src="images/100000000000053400000074817BDABD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>La primera respuesta es incorrecta. Intentémoslo de nuevo:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000003020000010E496C9FF0.png" width="231" height="81" style="display:inline-block; margin:4px;width:6.1cm;height:2.14cm;" class="odt-zoomable" data-zoom-src="images/10000000000003020000010E496C9FF0.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>La respuesta de DeepSeek deja que desear. Es menos precisa que las generadas por los demás IA.</p>
+<h2 id="93-el-problema-2">9.3. <span style="color: #0f4761">El problema 2</span></h2>
+<p>La pregunta:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000655000001CFD409CA1D.png" width="485" height="138" style="display:inline-block; margin:4px;width:12.82cm;height:3.66cm;" class="odt-zoomable" data-zoom-src="images/1000000000000655000001CFD409CA1D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+<p>La primera respuesta es incorrecta. Volvemos a intentarlo:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003020000010E496C9FF0.png" width="231" height="81" style="display:inline-block; margin:4px;width:6.1cm;height:2.14cm;" class="odt-zoomable" data-zoom-src="images/10000000000003020000010E496C9FF0.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>La siguiente respuesta es un poco mejor:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000062F000001D2B20FC157.png" width="478" height="141" style="display:inline-block; margin:4px;width:12.64cm;height:3.722cm;" class="odt-zoomable" data-zoom-src="images/100000000000062F000001D2B20FC157.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000062F000001D2B20FC157.png" width="478" height="141" style="display:inline-block; margin:4px;width:12.64cm;height:3.72cm;" class="odt-zoomable" data-zoom-src="images/100000000000062F000001D2B20FC157.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>La siguiente respuesta es muy decepcionante. Casi todas las pruebas fallan. En las respuestas de DeepSeek, no percibimos la certeza de las primeras IA probadas. Parece como si la propia IA dudara de la precisión de sus respuestas. Además, da la sensación de que DeepSeek no está pensando. Da una respuesta muy rápidamente, mientras que ChatGPT tardó varios minutos en pensar. Quizás sea un problema de configuración.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000645000001C9CFE760C6.png" width="485" height="138" style="display:inline-block; margin:4px;width:12.82cm;height:3.649cm;" class="odt-zoomable" data-zoom-src="images/1000000000000645000001C9CFE760C6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/10000000000001AC0000017D9C58C36E.png" width="128" height="114" style="display:inline-block; margin:4px;width:3.39cm;height:3.018cm;" class="odt-zoomable" data-zoom-src="images/10000000000001AC0000017D9C58C36E.png" /></td></tr></table>
+<p>La siguiente respuesta es muy decepcionante. Casi todas las pruebas fallan. En las respuestas de DeepSeek, no se percibe la certeza de las primeras IA probadas. Parece que la propia IA duda de la exactitud de sus respuestas. Por otra parte, da la impresión de que DeepSeek no reflexiona. Da una respuesta muy rápidamente, mientras que ChatGPT tardaba varios minutos en pensar. Quizás sea un problema de configuración.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000645000001C9CFE760C6.png" width="485" height="138" style="display:inline-block; margin:4px;width:12.82cm;height:3.649cm;" class="odt-zoomable" data-zoom-src="images/1000000000000645000001C9CFE760C6.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001AC0000017D9C58C36E.png" width="128" height="114" style="display:inline-block; margin:4px;width:3.39cm;height:3.02cm;" class="odt-zoomable" data-zoom-src="images/10000000000001AC0000017D9C58C36E.png" /></td></tr></table>
 
-<p>Esta vez es mejor. Solo queda un fallo, de dos euros. Otras IA han fallado en esta misma prueba con la misma discrepancia de dos euros. Consideraremos que el script de DeepSeek es correcto.</p>
-<h2 id="94-problema-3">9.4. <span style="color: #0f4761">Problema 3</span></h2>
+<p>Esta vez es mejor. Solo queda un fallo de unos dos euros. Otros IA han fallado en esta misma prueba con esa misma diferencia de dos euros. Vamos a considerar que el script de DeepSeek es correcto.</p>
+<h2 id="94-el-problema-3">9.4. <span style="color: #0f4761">El problema 3</span></h2>
 <p>La pregunta</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000066E000001FB450DDBC9.png" width="497" height="153" style="display:inline-block; margin:4px;width:13.15cm;height:4.05cm;" class="odt-zoomable" data-zoom-src="images/100000000000066E000001FB450DDBC9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000066E000001FB450DDBC9.png" width="497" height="153" style="display:inline-block; margin:4px;width:13.15cm;height:4.05cm;" class="odt-zoomable" data-zoom-src="images/100000000000066E000001FB450DDBC9.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Esta vez, se acabaron los PDF. DeepSeek tendrá que buscar las reglas de cálculo en Internet.</p>
-<p>Primer intento: las 25 pruebas fallan. Intentémoslo de nuevo.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/1000000000000626000001E87927CA18.png" width="472" height="146" style="display:inline-block; margin:4px;width:12.48cm;height:3.868cm;" class="odt-zoomable" data-zoom-src="images/1000000000000626000001E87927CA18.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<p>Esta vez, ya no hay PDF. DeepSeek tendrá que buscar las reglas de cálculo en Internet.</p>
+<p>Primera respuesta: las 25 pruebas fallan. Volvemos a empezar.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000626000001E87927CA18.png" width="472" height="146" style="display:inline-block; margin:4px;width:12.48cm;height:3.87cm;" class="odt-zoomable" data-zoom-src="images/1000000000000626000001E87927CA18.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Las 25 pruebas vuelven a fallar.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000067A000001E178DC493B.png" width="498" height="144" style="display:inline-block; margin:4px;width:13.169cm;height:3.821cm;" class="odt-zoomable" data-zoom-src="images/100000000000067A000001E178DC493B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000067A000001E178DC493B.png" width="498" height="144" style="display:inline-block; margin:4px;width:13.169cm;height:3.821cm;" class="odt-zoomable" data-zoom-src="images/100000000000067A000001E178DC493B.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Una vez más, han fallado las 25 pruebas. Nos rendimos y concluimos que DeepSeek no ha sido capaz de resolver el Problema 3 en un plazo de tiempo razonable.</p>
+<p>De nuevo, 25 pruebas fallidas. Abandonamos y consideramos que DeepSeek no ha sabido resolver el problema 3 en un tiempo razonable.</p>
 
 
 
